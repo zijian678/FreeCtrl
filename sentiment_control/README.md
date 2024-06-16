@@ -25,7 +25,7 @@ Parameters and Ranges
 
 --label_word_file the attribute keywords can be changed in this file to generate sentences containing different keywords
 
---num_beams, --top_k, --temperature can be adjusted to improve the diversity and fluency of generated sentences.
+--num_beams, --top_k, --temperature can be adjusted to improve the **diversity** and **fluency** of generated sentences.
 
 ## Output
 The generated sentences are saved to the folder of output.
