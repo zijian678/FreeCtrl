@@ -36,3 +36,6 @@ If you find our work useful, please consider citing FreeCtrl:
 
 }
 ```
+
+## Contact
+If you encounter any issues, please contact me at feng0119@e.ntu.edu.sg.
