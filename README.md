@@ -1,5 +1,5 @@
 # FreeCtrl
-**FreeCtrl: Constructing Control Centers with Feedforward Layers for Learning-Free Controllable Text Generation (ACL 2024)** [Link]
+**FreeCtrl: Constructing Control Centers with Feedforward Layers for Learning-Free Controllable Text Generation (ACL 2024)** [Link](https://arxiv.org/abs/2406.09688)
 
 
 ## Text Generation
