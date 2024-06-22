@@ -4,7 +4,7 @@
 
 ## Text Generation
 
-* Download and unzip the FFN distribution from [this link](https://drive.google.com/file/d/1QZIGzI7-f4AD1-r022QJ80E1Wo9vXoNr/view?usp=sharing).
+* **Download** and **unzip** the FFN distribution from [this link](https://drive.google.com/file/d/1QZIGzI7-f4AD1-r022QJ80E1Wo9vXoNr/view?usp=sharing).
 * Navigate to the respective folders for text generation:
   * Topic Control
   * Sentiment Control
