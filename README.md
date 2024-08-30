@@ -1,5 +1,5 @@
 # FreeCtrl
-**FreeCtrl: Constructing Control Centers with Feedforward Layers for Learning-Free Controllable Text Generation (ACL 2024)** [Link](https://arxiv.org/abs/2406.09688)
+**FreeCtrl: Constructing Control Centers with Feedforward Layers for Learning-Free Controllable Text Generation (ACL 2024)** [Link](https://aclanthology.org/2024.acl-long.412/)
 
 
 ## Text Generation
@@ -26,14 +26,22 @@ The code for FFN control is from [ff-layers](https://github.com/mega002/ff-layer
 If you find our work useful, please consider citing FreeCtrl:
 ```
 @inproceedings{feng-etal-2024-freectrl,
-    title = "FreeCtrl: Constructing Control Centers with Feedforward Layers for Learning-Free Controllable Text Generation",
+    title = "{F}ree{C}trl: Constructing Control Centers with Feedforward Layers for Learning-Free Controllable Text Generation",
     author = "Feng, Zijian  and
-    Zhou Hanzhang and
-    Zhu, Zixiao  and
-    Mao, Kezhi",
+      Zhou, Hanzhang  and
+      Mao, Kezhi  and
+      Zhu, Zixiao",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
     booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
     year = "2024",
-
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.412",
+    pages = "7627--7640",
+    abstract = "Controllable text generation (CTG) seeks to craft texts adhering to specific attributes, traditionally employing learning-based techniques such as training, fine-tuning, or prefix-tuning with attribute-specific datasets. These approaches, while effective, demand extensive computational and data resources. In contrast, some proposed learning-free alternatives circumvent learning but often yield inferior results, exemplifying the fundamental machine learning trade-off between computational expense and model efficacy. To overcome these limitations, we propose FreeCtrl, a learning-free approach that dynamically adjusts the weights of selected feedforward neural network (FFN) vectors to steer the outputs of large language models (LLMs). FreeCtrl hinges on the principle that the weights of different FFN vectors influence the likelihood of different tokens appearing in the output. By identifying and adaptively adjusting the weights of attribute-related FFN vectors, FreeCtrl can control the output likelihood of attribute keywords in the generated content. Extensive experiments on single- and multi-attribute control reveal that the learning-free FreeCtrl outperforms other learning-free and learning-based methods, successfully resolving the dilemma between learning costs and model performance.",
 }
 ```
 
